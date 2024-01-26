@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.big_container{
+    /* border: 2px solid red ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.container{
+    display: flex;
+    border-radius:55px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    height: 520px;
+    width: 380px;
+    background-color: white;
+}
+.container img{
+    height: 120px;
+    width: 120px;;
+}
+.container p{
+    text-align: justify;
+}
+
+h3{
+    /* border: 2px solid red ; */
+    color: grey;
+    
+   
+}
+.colors{
+    /* border: 2px solid red ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+   
+        
+}
+
+#red{
+    /* border: 2px solid red ; */
+    width: 25px ;
+    height: 25px;
+    border-radius: 100%;
+    background-color: red;
+
+    
+}
+#grey{
+    /* border: 2px solid red ; */
+    width: 25px ;
+    height: 25px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+#green{
+    /* border: 2px solid red ; */
+    width: 25px ;
+    height: 25px;
+    border-radius: 100%;
+    background-color: green;
+
+}
+.button{
+    height: 22px;
+    width: 80px;
+    border-radius: 22px;
+    /* border:none; */
+    border-color: red;
+    color: brown;
+}
