@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj-4</title>
+    <style>
+        .full{
+            /* border: 2px solid red; */
+            display: grid;
+            padding: 9px;
+            grid-template-columns:2fr 2fr;
+            box-shadow: 0 4px 6px rgba(33, 13, 13, 0.2);
+            
+        }
+        .inside_box{
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .Home,.About,.Services,.Contact,.Feedback{
+            /* border: 2px solid red ; */
+            background-color: white;
+            border-radius: 4px;
+            border-width: 3px;
+            border: none;
+            height: 50px;
+            width: 100px;
+            padding: 4px;
+            margin-left: 30px;
+            font-weight: bolder;
+            box-shadow: 0 2px 5px rgba(18, 8, 8, 0.4);
+
+
+        }
+      
+
+    </style>
+<body>
+    <div class="full">
+        <div class="outer_box"></div>
+        <div class="inside_box">
+            <button class="Home" type="button">Home</button>
+            <button class="Services" type="button">Services</button>
+            <button class="Contact" type="button">Contact</button>
+            <button class="About" type="button">About</button>
+            <button class="Feedback" type="button">Feedback</button>
+        </div>
+    </div>
+    
+</body>
